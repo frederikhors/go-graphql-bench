@@ -1,0 +1,3 @@
+{
+    "query": "{\n  list {\n    id\n    info\n    name\n    price\n    __typename\n  }\n}\n"
+}

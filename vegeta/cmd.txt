@@ -1,0 +1,4 @@
+vegeta attack -duration=5s -output .\output -targets .\targets\create.txt; vegeta report .\output
+vegeta attack -duration=5s -output .\output -targets .\targets\list.txt; vegeta report .\output
+
+vegeta attack -duration=5s -rate=100/1s -output .\output -targets .\target.txt; vegeta report .\output
